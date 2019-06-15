@@ -8648,10 +8648,16 @@
       "links": {},
       "address": "0x9afA57fa53a701A8f9b8ad5786A49FeBF937Df7C",
       "transactionHash": "0xfc25c8062c71f9836a823ad5fdbf73fb438c123acbcf9624e170cccc692915c0"
+    },
+    "1560594151474": {
+      "events": {},
+      "links": {},
+      "address": "0xB8b09D8302c3D7187eCBFca85F4b58fF6ffd4fFC",
+      "transactionHash": "0x21d0acbc325175ce2a4bc39a0abd83f3e2a493076903976e78799ce48bf4722b"
     }
   },
-  "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-15T09:20:28.489Z",
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-06-15T10:26:59.396Z",
   "devdoc": {
     "methods": {}
   },

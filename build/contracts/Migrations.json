@@ -1383,12 +1383,18 @@
     "1560590852266": {
       "events": {},
       "links": {},
-      "address": "0xe7a65239f1D17c70425f9D762F4D6536E8125CfA",
-      "transactionHash": "0xd75249848623d1a70b4f0f8d39273e053bb3b94da1f90b99b0005331a5dedc8d"
+      "address": "0x4E5C08E91Ee3F72F76F59b055aBE84EC55139d47",
+      "transactionHash": "0x325c62679bfb0c1191dc12c62ad865f9908328f19ea7774898de51c94e5ce116"
+    },
+    "1560594151474": {
+      "events": {},
+      "links": {},
+      "address": "0xE23B39aF76A64654a480A7443a63281507BcdCca",
+      "transactionHash": "0xdf5d8096abfd9f070270bd3233dcd3d402e2493ed368533784d584aed2856b9c"
     }
   },
-  "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-15T09:27:43.954Z",
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-06-15T10:26:59.403Z",
   "devdoc": {
     "methods": {}
   },

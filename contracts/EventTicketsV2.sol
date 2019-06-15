@@ -76,7 +76,7 @@ contract EventTicketsV2 {
     function addEvent(string memory eventDescription, string memory websiteUrl, uint numberOfTickets)
     public
     isOwner
-    returns (uint newId)
+    returns (uint)
     {
         // initialize new event
         Event memory newEvent;
@@ -84,17 +84,16 @@ contract EventTicketsV2 {
         newEvent.description = eventDescription;
         newEvent.website = websiteUrl;
         newEvent.totalTickets = numberOfTickets;
+        newEvent.id = idGenerator;
 
-        // set id
-        newId = idGenerator;
-        newEvent.id = newId;
         idGenerator += 1;
 
         // add event to events mapping with a unique id
-        events[newId] = newEvent;
+        events[newEvent.id] = newEvent;
 
         // emit event
-        emit LogEventAdded(eventDescription, websiteUrl, numberOfTickets, newId);
+        emit LogEventAdded(eventDescription, websiteUrl, numberOfTickets, newEvent.id);
+        return(newEvent.id);
     }
 
     /*
